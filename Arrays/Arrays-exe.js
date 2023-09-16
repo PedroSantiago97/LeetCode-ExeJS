@@ -32,6 +32,11 @@ a condicional adiciona o valor da sequência em "num",com
 o parâmetro ".add", se o valor que foi adicionar estiver
 em "num" e em "nums", retorna "True", do contrario retorna "False" */
     
+// new Set(), .add e .has
 
-    
+// new Set() => cria um novo objeto, usado para armazenar valores enquanto executa um comando 
+// .add => Adiciona valores em no objeto criado por Set()
+// .has => Verifica o determinado valor no objeto criado por Set()
+
+
       
