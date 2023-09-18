@@ -40,3 +40,37 @@ em "num" e em "nums", retorna "True", do contrario retorna "False" */
 
 
       
+
+// Subsequencia
+
+
+function isSubsequence(s, t){
+    let buscadorS = 0;
+    let buscadorT = 0;
+
+    while (buscadorS < s.length && buscadorT < t.length){
+        if (s[buscadorS] === t[buscadorT]){
+            buscadorS++;
+        }
+        buscadorT++;
+
+    }
+    return buscadorS === s.length 
+
+}
+
+
+console.log(isSubsequence("qet", "qwert"))
+
+
+/* Resumo do código : Foi criado uma função para verificar
+os valores de "t" e "s" e descobrir se são subsequentes. São
+criadas duas variáveis, ambas de valor 0 para percorrer os 
+valores dos Arrays. No comando While, temos a condição de loop
+referente a quantidade de caracteres das strings, com o parametro
+".length". Após isso uma condicional "If" para verificar se os 
+elementos de "s" são iguais aos elementos de "t" na posição da array 
+em que o loop está, por exemplo, no inicio é o 0, entao o primeiro
+loop vai mostrar a letra "q" que aparece em ambos, cuja proposição
+vai vir como verdadeira. Ademais, é posto um comando de adição
+aos valores das variaveis para avançar na pesquisa do array.*/
